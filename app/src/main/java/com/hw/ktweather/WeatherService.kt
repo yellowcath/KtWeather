@@ -26,5 +26,10 @@ enum class CITY(val id: Int) {
 }
 
 //TODO 1、Weather及WeatherInfo数据类
+//如果嫌手动写麻烦，可以下载Android Studio的插件,"JSON TO Kotlin Class",装好按option+K（或alt+K）,下面json拷进去可以自动生成
 //data class Weather()
 //data class WeatherInfo()
+
+
+//{"weatherinfo":{"city":"鍖椾含","cityid":"101010100","temp":"27.9","WD":"鍗楅","WS":"灏忎簬3绾�","SD":"28%",
+// "AP":"1002hPa","njd":"鏆傛棤瀹炲喌","WSE":"<3","time":"17:55","sm":"2.1","isRadar":"1","Radar":"JC_RADAR_AZ9010_JB"}}
